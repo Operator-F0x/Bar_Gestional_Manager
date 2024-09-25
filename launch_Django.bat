@@ -1,0 +1,2 @@
+python Bar_Gestional_Manager/Backend/Bar_Gestion/manage.py runserver
+pause
