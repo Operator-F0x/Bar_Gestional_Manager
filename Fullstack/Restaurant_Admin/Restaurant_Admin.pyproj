@@ -4,6 +4,7 @@
     <Name>Restaurant_Admin</Name>
     <RootNamespace>Restaurant_Admin</RootNamespace>
     <InterpreterId>MSBuild|RA_venv|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
