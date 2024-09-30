@@ -1,0 +1,158 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Name>Restaurant_Admin</Name>
+    <RootNamespace>Restaurant_Admin</RootNamespace>
+    <InterpreterId>MSBuild|RA_venv|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>6aa52254-1df3-464f-a1c9-00c378bc673b</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <DjangoSettingsModule>Restaurant_Admin.settings</DjangoSettingsModule>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="manage.py" />
+    <Compile Include="menu\admin.py" />
+    <Compile Include="menu\apps.py" />
+    <Compile Include="menu\migrations\__init__.py" />
+    <Compile Include="menu\models.py" />
+    <Compile Include="menu\tests.py" />
+    <Compile Include="menu\urls.py" />
+    <Compile Include="menu\views.py" />
+    <Compile Include="menu\__init__.py" />
+    <Compile Include="Restaurant_Admin\__init__.py" />
+    <Compile Include="Restaurant_Admin\settings.py" />
+    <Compile Include="Restaurant_Admin\urls.py" />
+    <Compile Include="Restaurant_Admin\wsgi.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="menu\templates\menu\static\fontawesome\css\all.min.css" />
+    <Content Include="menu\templates\menu\static\fontawesome\LICENSE.txt" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-brands-400.eot" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-brands-400.svg" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-brands-400.ttf" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-brands-400.woff" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-brands-400.woff2" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-regular-400.eot" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-regular-400.svg" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-regular-400.ttf" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-regular-400.woff" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-regular-400.woff2" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-solid-900.eot" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-solid-900.svg" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-solid-900.ttf" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-solid-900.woff" />
+    <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-solid-900.woff2" />
+    <Content Include="menu\templates\menu\static\img\about-1.png" />
+    <Content Include="menu\templates\menu\static\img\about-2.png" />
+    <Content Include="menu\templates\menu\static\img\hot-americano.png" />
+    <Content Include="menu\templates\menu\static\img\hot-cappuccino.png" />
+    <Content Include="menu\templates\menu\static\img\hot-espresso.png" />
+    <Content Include="menu\templates\menu\static\img\hot-latte.png" />
+    <Content Include="menu\templates\menu\static\img\iced-americano.png" />
+    <Content Include="menu\templates\menu\static\img\iced-cappuccino.png" />
+    <Content Include="menu\templates\menu\static\img\iced-espresso.png" />
+    <Content Include="menu\templates\menu\static\img\iced-latte.png" />
+    <Content Include="menu\templates\menu\static\img\smoothie-1.png" />
+    <Content Include="menu\templates\menu\static\img\smoothie-2.png" />
+    <Content Include="menu\templates\menu\static\img\smoothie-3.png" />
+    <Content Include="menu\templates\menu\static\img\smoothie-4.png" />
+    <Content Include="menu\templates\menu\static\img\special-01.jpg" />
+    <Content Include="menu\templates\menu\static\img\special-02.jpg" />
+    <Content Include="menu\templates\menu\static\img\special-03.jpg" />
+    <Content Include="menu\templates\menu\static\img\special-04.jpg" />
+    <Content Include="menu\templates\menu\static\img\special-05.jpg" />
+    <Content Include="menu\templates\menu\static\img\special-06.jpg" />
+    <Content Include="menu\templates\menu\index.html" />
+    <Content Include="menu\templates\menu\static\js\jquery-3.4.1.min.js" />
+    <Content Include="menu\templates\menu\static\css\main.css" />
+    <Content Include="menu\templates\menu\static\video\wave-cafe-video-bg.mp4" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="menu\" />
+    <Folder Include="menu\migrations\" />
+    <Folder Include="menu\templates\" />
+    <Folder Include="menu\templates\menu\" />
+    <Folder Include="menu\templates\menu\static\css\" />
+    <Folder Include="menu\templates\menu\static\fontawesome\" />
+    <Folder Include="menu\templates\menu\static\fontawesome\css\" />
+    <Folder Include="menu\templates\menu\static\fontawesome\webfonts\" />
+    <Folder Include="menu\templates\menu\static\img\" />
+    <Folder Include="menu\templates\menu\static\js\" />
+    <Folder Include="menu\templates\menu\static\" />
+    <Folder Include="menu\templates\menu\static\video\" />
+    <Folder Include="Restaurant_Admin\" />
+    <Folder Include="media\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="RA_venv\">
+      <Id>RA_venv</Id>
+      <Version>3.9</Version>
+      <Description>RA_venv (Python 3.9 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
