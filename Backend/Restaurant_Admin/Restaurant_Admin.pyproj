@@ -30,6 +30,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="booking\admin.py" />
+    <Compile Include="booking\apps.py" />
+    <Compile Include="booking\migrations\__init__.py" />
+    <Compile Include="booking\models.py" />
+    <Compile Include="booking\tests.py" />
+    <Compile Include="booking\views.py" />
+    <Compile Include="booking\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="menu\admin.py" />
     <Compile Include="menu\apps.py" />
@@ -45,6 +52,28 @@
     <Compile Include="Restaurant_Admin\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="booking\templates\book\index.html" />
+    <Content Include="booking\templates\book\static\css\main.css" />
+    <Content Include="booking\templates\book\static\fontawesome\css\all.min.css" />
+    <Content Include="booking\templates\book\static\fontawesome\LICENSE.txt" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-brands-400.eot" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-brands-400.svg" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-brands-400.ttf" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-brands-400.woff" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-brands-400.woff2" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-regular-400.eot" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-regular-400.svg" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-regular-400.ttf" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-regular-400.woff" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-regular-400.woff2" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-solid-900.eot" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-solid-900.svg" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-solid-900.ttf" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-solid-900.woff" />
+    <Content Include="booking\templates\book\static\fontawesome\webfonts\fa-solid-900.woff2" />
+    <Content Include="booking\templates\book\static\img\Kitchen-Mug.ico" />
+    <Content Include="booking\templates\book\static\js\jquery-3.4.1.min.js" />
+    <Content Include="booking\templates\book\static\video\wave-cafe-video-bg.mp4" />
     <Content Include="menu\templates\menu\static\fontawesome\css\all.min.css" />
     <Content Include="menu\templates\menu\static\fontawesome\LICENSE.txt" />
     <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-brands-400.eot" />
@@ -62,26 +91,7 @@
     <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-solid-900.ttf" />
     <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-solid-900.woff" />
     <Content Include="menu\templates\menu\static\fontawesome\webfonts\fa-solid-900.woff2" />
-    <Content Include="menu\templates\menu\static\img\about-1.png" />
-    <Content Include="menu\templates\menu\static\img\about-2.png" />
-    <Content Include="menu\templates\menu\static\img\hot-americano.png" />
-    <Content Include="menu\templates\menu\static\img\hot-cappuccino.png" />
-    <Content Include="menu\templates\menu\static\img\hot-espresso.png" />
-    <Content Include="menu\templates\menu\static\img\hot-latte.png" />
-    <Content Include="menu\templates\menu\static\img\iced-americano.png" />
-    <Content Include="menu\templates\menu\static\img\iced-cappuccino.png" />
-    <Content Include="menu\templates\menu\static\img\iced-espresso.png" />
-    <Content Include="menu\templates\menu\static\img\iced-latte.png" />
-    <Content Include="menu\templates\menu\static\img\smoothie-1.png" />
-    <Content Include="menu\templates\menu\static\img\smoothie-2.png" />
-    <Content Include="menu\templates\menu\static\img\smoothie-3.png" />
-    <Content Include="menu\templates\menu\static\img\smoothie-4.png" />
-    <Content Include="menu\templates\menu\static\img\special-01.jpg" />
-    <Content Include="menu\templates\menu\static\img\special-02.jpg" />
-    <Content Include="menu\templates\menu\static\img\special-03.jpg" />
-    <Content Include="menu\templates\menu\static\img\special-04.jpg" />
-    <Content Include="menu\templates\menu\static\img\special-05.jpg" />
-    <Content Include="menu\templates\menu\static\img\special-06.jpg" />
+    <Content Include="menu\templates\menu\static\img\Kitchen-Mug.ico" />
     <Content Include="menu\templates\menu\index.html" />
     <Content Include="menu\templates\menu\static\js\jquery-3.4.1.min.js" />
     <Content Include="menu\templates\menu\static\css\main.css" />
@@ -89,6 +99,18 @@
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="booking\" />
+    <Folder Include="booking\migrations\" />
+    <Folder Include="booking\templates\" />
+    <Folder Include="booking\templates\book\" />
+    <Folder Include="booking\templates\book\static\" />
+    <Folder Include="booking\templates\book\static\css\" />
+    <Folder Include="booking\templates\book\static\fontawesome\" />
+    <Folder Include="booking\templates\book\static\fontawesome\css\" />
+    <Folder Include="booking\templates\book\static\fontawesome\webfonts\" />
+    <Folder Include="booking\templates\book\static\img\" />
+    <Folder Include="booking\templates\book\static\js\" />
+    <Folder Include="booking\templates\book\static\video\" />
     <Folder Include="menu\" />
     <Folder Include="menu\migrations\" />
     <Folder Include="menu\templates\" />
